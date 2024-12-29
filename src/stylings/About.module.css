@@ -1,0 +1,32 @@
+.DarkAboutConatinerMain {
+  background-color: #111827;
+  height: 962px;
+  width: 100%;
+  padding: 96px 80px;
+  transition: all;
+  transition-duration: 1s;
+}
+.LightAboutConatinerMain {
+  background-color: #f9fafb;
+  height: 962px;
+  width: 100%;
+  padding: 96px 80px;
+  transition: all;
+  transition-duration: 1s;
+}
+.pageHeaderDark {
+  background-color: #374151;
+  color: white;
+  width: 9%;
+  padding: 4px 25px;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.pageHeaderLight {
+  background-color: #e5e7eb;
+  color: black;
+  width: 9%;
+  padding: 4px 25px;
+  border-radius: 20px;
+  margin: 0 auto;
+}

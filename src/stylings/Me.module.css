@@ -1,5 +1,4 @@
 .LightMainDiv {
-  height: 552px;
   width: 100%;
   background-color: white;
   padding: 96px 80px;
@@ -8,7 +7,6 @@
 }
 
 .DarkMainDiv {
-  height: 552px;
   width: 100%;
   background-color: #030712;
   padding: 96px 80px;
@@ -24,26 +22,27 @@
   justify-content: space-around;
 }
 .section {
-  height: 100%;
+  height: 300px;
   width: 30%;
+
+  position: relative;
 }
 .section:nth-child(1) {
   width: 65%;
 
-  display: block;
+  position: static;
 }
 .name {
   font-size: 3rem;
   font-weight: bold;
-  height: 72px;
+
   display: flex;
   align-items: center;
 }
 .Darkinfo {
   color: darkgrey;
-  height: 72px;
   word-break: inherit;
-  font-size: 19px;
+  font-size: 1.2rem;
   margin-top: 5px;
   line-height: 25px;
 }
@@ -51,7 +50,7 @@
   color: rgb(58, 57, 57);
   height: 72px;
   word-break: inherit;
-  font-size: 19px;
+  font-size: 1.2rem;
   margin-top: 5px;
   line-height: 25px;
 }
@@ -93,39 +92,42 @@
   font-size: 22px;
 }
 
-.avatarLight {
-  width: 240px;
-  margin-top: -25px;
-  margin-left: -25px;
-  border-right: 7px solid white;
-  border-bottom: 7px solid white;
-  transition: all;
-  transition-duration: 1s;
-}
-.avatarDark {
-  width: 240px;
-  margin-top: -25px;
-  margin-left: -25px;
-  border-right: 7px solid #030712;
-  border-bottom: 7px solid #030712;
-  transition: all;
-  transition-duration: 1s;
-}
 .imageHolderDark {
-  background-color: lightgrey;
-  width: 64%;
-  height: 70.5%;
-  margin-top: 5%;
-  margin-left: 27%;
-  transition: all;
-  transition-duration: 1s;
+  background-color: #374151;
+  height: 70%;
+  width: 50%;
+  top: 10%;
+  left: 25%;
+  position: absolute;
 }
 .imageHolderLight {
-  background-color: grey;
-  width: 64%;
-  height: 70.5%;
-  margin-top: 5%;
-  margin-left: 27%;
+  position: absolute;
+  background-color: #e5e7eb;
+  height: 70%;
+  width: 50%;
+  top: 10%;
+  left: 25%;
+}
+
+.avatarDark {
   transition: all;
   transition-duration: 1s;
+  height: 95%;
+  width: 95%;
+  position: absolute;
+  top: -10%;
+  left: -12%;
+  border-bottom: 8px solid #030712;
+  border-right: 8px solid #030712;
+}
+.avatarLight {
+  transition: all;
+  transition-duration: 1s;
+  height: 95%;
+  width: 95%;
+  position: absolute;
+  top: -10%;
+  left: -12%;
+  border-bottom: 8px solid white;
+  border-right: 8px solid white;
 }

@@ -48,7 +48,6 @@
 }
 .Lightinfo {
   color: rgb(58, 57, 57);
-  height: 72px;
   word-break: inherit;
   font-size: 1.2rem;
   margin-top: 5px;
@@ -99,6 +98,8 @@
   top: 10%;
   left: 25%;
   position: absolute;
+  transition: all;
+  transition-duration: 1s;
 }
 .imageHolderLight {
   position: absolute;
@@ -107,6 +108,8 @@
   width: 50%;
   top: 10%;
   left: 25%;
+  transition: all;
+  transition-duration: 1s;
 }
 
 .avatarDark {
@@ -119,6 +122,8 @@
   left: -12%;
   border-bottom: 8px solid #030712;
   border-right: 8px solid #030712;
+  transition: all;
+  transition-duration: 1s;
 }
 .avatarLight {
   transition: all;
@@ -130,4 +135,6 @@
   left: -12%;
   border-bottom: 8px solid white;
   border-right: 8px solid white;
+  transition: all;
+  transition-duration: 1s;
 }

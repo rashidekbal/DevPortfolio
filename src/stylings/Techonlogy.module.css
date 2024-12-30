@@ -1,0 +1,47 @@
+.mainHolderDark {
+  background-color: #030712;
+  height: 560px;
+  width: 100%;
+  padding: 96px 80px;
+  text-align: center;
+  transition: all;
+  transition-duration: 1s;
+}
+.mainHolderDark .MainInfoBar {
+  background-color: #374151;
+  color: #d1d5db;
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.mainHolderLight {
+  background-color: white;
+  height: 560px;
+  width: 100%;
+  padding: 96px 80px;
+  text-align: center;
+  transition: all;
+  transition-duration: 1s;
+}
+.mainHolderLight .MainInfoBar {
+  background-color: #e5e7eb;
+  color: #4b5563;
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.skillsInfo {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.subgrid {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0;
+}
+.grid img {
+  height: 64px;
+  width: 64px;
+}

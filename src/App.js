@@ -5,6 +5,7 @@ import { useState } from "react";
 import Me from "./components/Me";
 import About from "./components/About";
 import TechnologyPage from "./components/TechnologyPage";
+import ExperiencePage from "./components/ExperiencePage";
 
 function App() {
   const [isDark, changeIsDark] = useState(true);
@@ -14,6 +15,7 @@ function App() {
       <Me isDark={isDark}></Me>
       <About isDark={isDark}></About>
       <TechnologyPage isDark={isDark}></TechnologyPage>
+      <ExperiencePage isDark={isDark}></ExperiencePage>
     </div>
   );
 }

@@ -28,7 +28,7 @@
 }
 .pageHeaderLight {
   background-color: #e5e7eb;
-  color: black;
+  color: #555e6c;
   display: inline-block;
   padding: 4px 25px;
   border-radius: 20px;
@@ -46,6 +46,11 @@
 .sections {
   width: 50%;
   height: 100%;
+}
+.sections:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .AboutInfoHeader {
   font-weight: bold;
@@ -80,7 +85,7 @@
   transition-duration: 1s;
 }
 .imageHolderDark img {
-  width: 350px;
+  width: 340px;
   margin-top: -105px;
   margin-right: -85px;
   border-left: 7px solid #111827;
@@ -98,7 +103,7 @@
   transition-duration: 1s;
 }
 .imageHolderLight img {
-  width: 350px;
+  width: 340px;
   margin-top: -105px;
   margin-right: -85px;
   border-left: 7px solid white;

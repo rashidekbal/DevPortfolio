@@ -24,12 +24,13 @@
 .section {
   height: 300px;
   width: 30%;
-
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section:nth-child(1) {
   width: 65%;
-
+  display: block;
   position: static;
 }
 .name {
@@ -93,19 +94,18 @@
 
 .imageHolderDark {
   background-color: #374151;
-  height: 70%;
-  width: 50%;
+  height: 215px;
+  width: 215px;
   top: 10%;
   left: 25%;
-  position: absolute;
+
   transition: all;
   transition-duration: 1s;
 }
 .imageHolderLight {
-  position: absolute;
   background-color: #e5e7eb;
-  height: 70%;
-  width: 50%;
+  height: 215px;
+  width: 215px;
   top: 10%;
   left: 25%;
   transition: all;
@@ -115,9 +115,9 @@
 .avatarDark {
   transition: all;
   transition-duration: 1s;
-  height: 95%;
-  width: 95%;
-  position: absolute;
+  height: 190px;
+  width: 190px;
+
   top: -10%;
   left: -12%;
   border-bottom: 8px solid #030712;
@@ -128,9 +128,9 @@
 .avatarLight {
   transition: all;
   transition-duration: 1s;
-  height: 95%;
-  width: 95%;
-  position: absolute;
+  height: 190px;
+  width: 190px;
+
   top: -10%;
   left: -12%;
   border-bottom: 8px solid white;

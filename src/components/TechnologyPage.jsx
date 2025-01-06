@@ -29,81 +29,92 @@ function TechnologyPage({ isDark }) {
       </div>
       <div className={style.grid}>
         <div className={style.subgrid}>
-          <div>
-            <img src={jsLogo} alt="javascript" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>JavaScript</p>
-          </div>
-          <div>
-            <img src={typescript} alt="TypeScript" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>TypeScript</p>
-          </div>
+          <div className={style.inGrid}>
+            <div>
+              <img src={jsLogo} alt="javascript" />
+              <p className={style.techName}>JavaScript</p>
+            </div>
+            <div>
+              <img src={typescript} alt="TypeScript" />
+              <p className={style.techName}>TypeScript</p>
+            </div>
 
-          <div>
-            <img src={react} alt="React" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>React</p>
+            <div>
+              <img src={react} alt="React" />
+              <p className={style.techName}>React</p>
+            </div>
+            <div>
+              <img src={next} alt="Next.js" />
+              <p className={style.techName}>Next.js</p>
+            </div>
           </div>
-          <div>
-            <img src={next} alt="Next.js" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Next.js</p>
-          </div>
-          <div>
-            <img src={node} alt="Node.js" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Node.js</p>
-          </div>
-          <div>
-            <img src={!isDark ? expressDark : express} alt="Express.js" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Express.js</p>
-          </div>
-          <div>
-            <img src={nest} alt="Nest.js" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Nest.js</p>
-          </div>
-          <div>
+          <div className={style.inGrid}>
             {" "}
-            <img src={!isDark ? socketDark : socket} alt="Socket.io" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Socket.io</p>
+            <div>
+              <img src={node} alt="Node.js" />
+              <p className={style.techName}>Node.js</p>
+            </div>
+            <div>
+              <img src={!isDark ? expressDark : express} alt="Express.js" />
+              <p className={style.techName}>Express.js</p>
+            </div>
+            <div>
+              <img src={nest} alt="Nest.js" />
+              <p className={style.techName}>Nest.js</p>
+            </div>
+            <div>
+              {" "}
+              <img src={!isDark ? socketDark : socket} alt="Socket.io" />
+              <p className={style.techName}>Socket.io</p>
+            </div>
           </div>
         </div>
         <div className={style.subgrid}>
-          <div>
+          <div className={style.inGrid}>
             {" "}
-            <img src={postgresql} alt="Postgresql" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Postgresql</p>
+            <div>
+              {" "}
+              <img src={postgresql} alt="Postgresql" />
+              <p className={style.techName}>Postgresql</p>
+            </div>
+            <div>
+              {" "}
+              <img src={mongo} alt="MongoDB" />
+              <p className={style.techName}>MongoDB</p>
+            </div>
+            <div>
+              {" "}
+              <img src={sass} alt="Sass/scss" />
+              <p className={style.techName}>Sass/Skillscss</p>
+            </div>
+            <div>
+              {" "}
+              <img src={tailwind} alt="TailWind" />
+              <p className={style.techName}>TailWindsCss</p>
+            </div>
           </div>
-          <div>
+          <div className={style.inGrid}>
             {" "}
-            <img src={mongo} alt="MongoDB" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>MongoDB</p>
-          </div>
-          <div>
-            {" "}
-            <img src={sass} alt="Sass/scss" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Sass/Skillscss</p>
-          </div>
-          <div>
-            {" "}
-            <img src={tailwind} alt="TailWind" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>TailWindsCss</p>
-          </div>
-          <div>
-            {" "}
-            <img src={figma} alt="Figma" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Figma</p>
-          </div>
-          <div>
-            {" "}
-            <img src={cypress} alt="Cypress" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Cypress</p>
-          </div>
-          <div>
-            {" "}
-            <img src={storybook} alt="Storybook" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Storybook</p>
-          </div>
-          <div>
-            {" "}
-            <img src={git} alt="Git" />
-            <p style={{ fontSize: "15px", marginTop: "5px" }}>Git</p>
+            <div>
+              {" "}
+              <img src={figma} alt="Figma" />
+              <p className={style.techName}>Figma</p>
+            </div>
+            <div>
+              {" "}
+              <img src={cypress} alt="Cypress" />
+              <p className={style.techName}>Cypress</p>
+            </div>
+            <div>
+              {" "}
+              <img src={storybook} alt="Storybook" />
+              <p className={style.techName}>Storybook</p>
+            </div>
+            <div>
+              {" "}
+              <img src={git} alt="Git" />
+              <p className={style.techName}>Git</p>
+            </div>
           </div>
         </div>
       </div>

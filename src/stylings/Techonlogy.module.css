@@ -38,15 +38,57 @@
 }
 .subgrid {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   margin: 60px 0;
+}
+.inGrid {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 .grid img {
   height: 64px;
   width: 64px;
+  margin-top: 4px;
 }
+.techName {
+  display: block;
+  width: 80px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
 @media (max-width: 450px) {
+  .mainHolderDark {
+    height: 610px;
+    padding: 54px 16px;
+  }
+  .mainHolderLight {
+    height: 610px;
+    padding: 54px 16px;
+  }
+  .skillsInfo {
+    font-size: 17px;
+  }
   .subgrid {
-    flex-direction: column;
+    all: unset;
+    display: block;
+    margin: 0px;
+    padding-top: 10px;
+  }
+  .subgrid img {
+    height: 50px;
+    width: 50px;
+  }
+  .inGrid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .techName {
+    display: block;
+    width: 70px;
+    overflow: hidden;
+    font-size: 14px;
   }
 }

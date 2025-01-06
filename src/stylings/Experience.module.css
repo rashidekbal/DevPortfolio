@@ -1,4 +1,4 @@
-.MainConatinerLight {
+.MainConatiner {
   height: 1140px;
   width: 100%;
   padding: 96px 80px;
@@ -7,15 +7,16 @@
   transition-duration: 1s;
   text-align: center;
 }
+.MainConatinerLight {
+  background-color: #f9fafb;
+  transition: all;
+  transition-duration: 1s;
+}
 .MainConatinerDark {
-  height: 1140px;
-  width: 100%;
-  padding: 96px 80px;
   background-color: #111827;
   color: #d1d5db;
   transition: all;
   transition-duration: 1s;
-  text-align: center;
 }
 .MainConatinerDark .pageHeading {
   background-color: #374151;
@@ -31,4 +32,10 @@
   display: inline;
   border-radius: 26px;
   margin-bottom: 65px;
+}
+@media (max-width: 450px) {
+  .MainConatiner {
+    padding: 54px 16px;
+    height: auto;
+  }
 }

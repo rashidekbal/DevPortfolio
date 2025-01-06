@@ -3,9 +3,12 @@ import style from "../stylings/Experience.module.css";
 function ExperiencePage({ isDark }) {
   return (
     <div
-      className={isDark ? style.MainConatinerDark : style.MainConatinerLight}
+      className={`${style.MainConatiner} ${
+        isDark ? style.MainConatinerDark : style.MainConatinerLight
+      }`}
+      id="work"
     >
-      <p className={style.pageHeading}>Experience</p>
+      <p className={style.pageHeading}>work</p>
     </div>
   );
 }

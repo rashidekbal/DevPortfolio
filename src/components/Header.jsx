@@ -97,6 +97,7 @@ function Header({ isDark, changeIsDark }) {
                 className={style.phoneView}
                 onClick={() => {
                   changeIsDark(!isDark);
+                  linkClickHandler();
                 }}
               >
                 Switch Theme
@@ -105,6 +106,7 @@ function Header({ isDark, changeIsDark }) {
                 <LuSunMoon
                   onClick={() => {
                     changeIsDark(!isDark);
+                    linkClickHandler();
                   }}
                 />
               </span>

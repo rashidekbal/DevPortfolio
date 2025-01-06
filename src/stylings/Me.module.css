@@ -36,7 +36,6 @@
 .name {
   font-size: 3rem;
   font-weight: bold;
-
   display: flex;
   align-items: center;
 }
@@ -137,4 +136,51 @@
   border-right: 8px solid white;
   transition: all;
   transition-duration: 1s;
+}
+
+@media (max-width: 450px) {
+  .DarkMainDiv {
+    padding: 0px;
+    height: auto;
+  }
+  .LightMainDiv {
+    padding: 0px;
+    height: auto;
+  }
+  .innerDiv {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0px;
+    height: 700px;
+  }
+  .section {
+    width: auto;
+  }
+  .section:nth-child(1) {
+    width: 90vw;
+  }
+
+  .imageHolderDark {
+    width: 217px;
+  }
+  .imageHolderLight {
+    width: 217px;
+  }
+  .name {
+    font-size: 1.8rem;
+  }
+  .Darkinfo {
+    font-size: 16px;
+  }
+  .Lightinfo {
+    font-size: 16px;
+  }
+  .location {
+    margin-top: 15px;
+  }
+  .location1 {
+    margin-top: 0px;
+  }
 }

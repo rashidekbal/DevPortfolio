@@ -111,3 +111,62 @@
   transition: all;
   transition-duration: 1s;
 }
+@media (max-width: 450px) {
+  .DarkAboutConatinerMain {
+    padding: 54px 16px;
+    padding-bottom: 30px;
+  }
+  .LightAboutConatinerMain {
+    padding: 54px 16px;
+    padding-bottom: 30px;
+  }
+  .innerMain {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .sections {
+    width: 100%;
+  }
+  .simpleText {
+    font-size: 16px;
+  }
+  .imageHolderDark img {
+    all: unset;
+    height: 450px;
+    width: auto;
+    margin-top: -44px;
+    border-left: 7px solid #111827;
+    border-right: 7px solid #111827;
+    border-bottom: 7px solid #111827;
+    transition: all;
+    transition-duration: 1s;
+  }
+  .imageHolderLight img {
+    all: unset;
+    height: 450px;
+    width: auto;
+    margin-top: -44px;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+    border-bottom: 7px solid white;
+    transition: all;
+    transition-duration: 1s;
+  }
+  .imageHolderDark {
+    all: unset;
+    background-color: #374151;
+    width: 90%;
+    margin-top: 50px;
+    height: 425px;
+    margin-bottom: 50px;
+  }
+  .imageHolderLight {
+    all: unset;
+    background-color: #e5e7eb;
+    width: 90%;
+    margin-top: 50px;
+    height: 425px;
+    margin-bottom: 50px;
+  }
+}

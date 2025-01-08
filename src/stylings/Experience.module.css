@@ -1,14 +1,13 @@
 .MainConatiner {
-  height: 1140px;
   width: 100%;
   padding: 96px 80px;
-  background-color: #f9fafb;
+
   transition: all;
   transition-duration: 1s;
   text-align: center;
 }
 .MainConatinerLight {
-  background-color: #f9fafb;
+  background-color: white;
   transition: all;
   transition-duration: 1s;
 }

@@ -15,7 +15,8 @@ function ProjectCard({ isDark, data }) {
          `}
       >
         <h3 className={style.prName}>{data.name}</h3>
-        <p className={style.info}>{data.info}</p>
+        <p className={style.info}>{data.info} <a href={data.link}>Use Now!</a></p>
+        
         <div className={style.cardsHolder}>
           {data.techUsed.map((item) => (
             <span className={style.cards}>{item}</span>

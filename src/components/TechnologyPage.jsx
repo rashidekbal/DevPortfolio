@@ -20,7 +20,10 @@ import socketDark from "../icons/socketDark.svg";
 import expressDark from "../icons/expressDark.svg";
 function TechnologyPage({ isDark }) {
   return (
-    <div className={isDark ? style.mainHolderDark : style.mainHolderLight}>
+    <div
+      className={isDark ? style.mainHolderDark : style.mainHolderLight}
+      id="skills"
+    >
       <p className={style.MainInfoBar}>Skills</p>
       <div>
         <p className={style.skillsInfo}>

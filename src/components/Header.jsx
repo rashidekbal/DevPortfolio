@@ -61,24 +61,24 @@ function Header({ isDark, changeIsDark }) {
             </li>
             <li>
               <a
-                href="#work"
+                href="#skills"
                 className={style.link}
                 onClick={() => {
                   linkClickHandler();
                 }}
               >
-                Work
+                Skills
               </a>
             </li>
             <li>
               <a
-                href="#testimonials"
+                href="#project"
                 className={style.link}
                 onClick={() => {
                   linkClickHandler();
                 }}
               >
-                Testimonials
+                Projects
               </a>
             </li>
             <li>

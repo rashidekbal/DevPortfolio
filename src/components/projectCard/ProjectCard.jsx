@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "./css/ProjectCard.module.css";
 function ProjectCard({ isDark, data }) {
+  useEffect(() => {
+    console.log(data.links.frontend);
+  }, [data]);
   return (
     <div
       className={`${style.mainContainer} ${
@@ -8,7 +11,7 @@ function ProjectCard({ isDark, data }) {
       }`}
     >
       <div className={`${style.section}`}>
-        <img src={data.image} alt="Project img" />
+        <img src={data.image} alt="Project img" style={{ maxHeight: "100%" }} />
       </div>
       <div
         className={`${style.section} 
@@ -21,6 +24,18 @@ function ProjectCard({ isDark, data }) {
             <span className={style.cards}>{item}</span>
           ))}
         </div>
+        <div className={style.linkHolder}>
+          <a href={data.links.client} style={{ marginBottom: "10px" }}>
+            client repo Link
+          </a>
+        </div>
+        {data.links.server != undefined && (
+          <div className={style.linkHolder}>
+            <a href={data.links.server} target="_self">
+              server repo Link
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

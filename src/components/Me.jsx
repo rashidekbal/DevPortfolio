@@ -4,7 +4,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { LuGithub } from "react-icons/lu";
 import { FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
-import avatar from "../icons/avatar.jpg";
+import avatar from "../icons/avatar2.jpg";
 function Me({ isDark }) {
   return (
     <div className={isDark ? style.DarkMainDiv : style.LightMainDiv}>

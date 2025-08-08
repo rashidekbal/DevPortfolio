@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../stylings/About.module.css";
-import avatar from "../icons/bigavatar.jpg";
+import avatar from "../icons/bigavatar2.jpg";
 function About({ isDark }) {
   return (
     <div
@@ -14,14 +14,7 @@ function About({ isDark }) {
       </p>
 
       <div className={style.innerMain}>
-        <div className={style.sections}>
-          <div
-            className={isDark ? style.imageHolderDark : style.imageHolderLight}
-          >
-            <img src={avatar} alt="Avatar" />
-          </div>
-        </div>
-        <div className={style.sections}>
+        <div>
           <p className={style.AboutInfoHeader}>
             Curious about me? Here you have it:
           </p>
